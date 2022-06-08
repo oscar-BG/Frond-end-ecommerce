@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/0f48d8c00d.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <title>Mubleria lupita</title>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <img src="img/logo_panel.png" alt="" class="img-flud">
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> 
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item mr-auto">
+                    <a href="../index.html" class="nav-link">Inicio</a>
+                </li>
+            </ul>
+
+            <form class="form-inline">
+                <input type="text" class="form-control" placeholder="Buscar">
+                <button type="submit" class="btn btn-outline-info">Buscar</button>
+            </form>
+
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown mr-3">
+                    <!-- <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown"><i class="fas fa-user"></i> Bienvenid@ Lupita</a>
+
+                    <div class="dropdown-menu">
+                        <a href="perfil.html" class="dropdown-item"><i class="fas fa-user-circle"></i> Perfil</a>
+                    </div> -->
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item">Login</li>
+                        <li class="breadcrumb-item">Registrar</li>
+                    </ol>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <i class="fas fa-user-times"></i> Salir
+                    </a>
+                </li>
+            </ul>
+            
+        </div>
+       
+    </nav>
+
+
+    <div class="container">
+        <div class="d-flex flex-row-reverse estiloFila">
+            <div class="p-4">
+                <a href="#" class="btn btn-success" role="button" style="max-height: 100px; max-width: 400px;">
+                    <i class="bi bi-cart2"></i>  Ver carrito
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+    <!--Layout principal-->
+    <div class="container-fluid mt-5">
+        <div class="row">
+            <!--Layout de 3 columnas-->
+            <div class="col-sm-12 col-md-3">
+                <div class="card">
+                    <div class="card-header bg-dark text-white">
+                        <h4><i class="fas fa-align-justify"></i> Categoria</h4>
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-group">
+                            <li class="list-group-item list-group-item-secondary d-flex justify-content-between align-items-center">
+                                <a class="text-dark" href="categorias.php">Oficina</a>
+                                <span class="badge badge-primary badge-pill">5</span>
+                            </li>
+                            <li class="list-group-item list-group-item-secondary d-flex justify-content-between align-items-center">
+                                <a class="text-dark" href="productos.php">Habitación</a>
+                                <span class="badge badge-primary badge-pill">3</span>
+                            </li>
+                            <li class="list-group-item list-group-item-secondary d-flex justify-content-between align-items-center">
+                                <a class="text-dark" href="inventario.html">Cocina</a>
+                                <span class="badge badge-primary badge-pill">1</span>
+                            </li>
+                            <li class="list-group-item list-group-item-secondary d-flex justify-content-between align-items-center">
+                                <a class="text-dark" href="pedidos.html">Salas</a>
+                                <span class="badge badge-primary badge-pill">2</span>
+                            </li>
+                            <li class="list-group-item list-group-item-secondary d-flex justify-content-between align-items-center">
+                                <a class="text-dark" href="pedidos.html">Accesorios</a>
+                                <span class="badge badge-primary badge-pill">1</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+            <!--Layout de 9 columnas-->
+            <div class="col-sm-12 col-md-9">
+                <div class="row">
+
+                    <!-- Ver catalog de productos -->
+                    <div class="col-3">
+                        <div class="card">
+                            <img class="card-img-top img-fluid img-card m-auto img-thumbnail rounded" src="../img/productos/1.jpg" alt="Card image cap" style="max-width: 100px;">
+                            <div class="card-body">
+                            <h5 class="card-title">Mueble 1</h5>
+                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta rerum suscipit cumque, alias expedita est iure quis architecto, deleniti</p>
+                            <input id="clave" name="clave" type="hidden" value="01">
+                            <a href="#" class="btn btn-outline-success">Añadir a carrito</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card">
+                            <img class="card-img-top img-fluid img-card m-auto img-thumbnail rounded" src="../img/productos/2.png" alt="Card image cap" style="max-width: 100px;">
+                            <div class="card-body">
+                            <h5 class="card-title">Mueble 2</h5>
+                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta rerum suscipit cumque, alias expedita est iure quis architecto, deleniti</p>
+                            <input id="clave" name="clave" type="hidden" value="01">
+                            <a href="#" class="btn btn-outline-success">Añadir a carrito</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card">
+                            <img class="card-img-top img-fluid img-card m-auto img-thumbnail rounded" src="../img/productos/3.png" alt="Card image cap" style="max-width: 100px;">
+                            <div class="card-body">
+                            <h5 class="card-title">Mueble 3</h5>
+                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta rerum suscipit cumque, alias expedita est iure quis architecto, deleniti</p>
+                            <input id="clave" name="clave" type="hidden" value="01">
+                            <a href="#" class="btn btn-outline-success">Añadir a carrito</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card">
+                            <img class="card-img-top img-fluid img-card m-auto img-thumbnail rounded" src="../img/productos/Especiero-toallero.jpg" alt="Card image cap" style="max-width: 100px;">
+                            <div class="card-body">
+                            <h5 class="card-title">Mueble 4</h5>
+                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta rerum suscipit cumque, alias expedita est iure quis architecto, deleniti</p>
+                            <input id="clave" name="clave" type="hidden" value="01">
+                            <a href="#" class="btn btn-outline-success">Añadir a carrito</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card">
+                            <img class="card-img-top img-fluid img-card m-auto img-thumbnail rounded" src="../img/productos/Librero.png" alt="Card image cap" style="max-width: 100px;">
+                            <div class="card-body">
+                            <h5 class="card-title">Mueble 5</h5>
+                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta rerum suscipit cumque, alias expedita est iure quis architecto, deleniti</p>
+                            <input id="clave" name="clave" type="hidden" value="01">
+                            <a href="#" class="btn btn-outline-success">Añadir a carrito</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card">
+                            <img class="card-img-top img-fluid img-card m-auto img-thumbnail rounded" src="../img/productos/Mesa-de-centro.jpg" alt="Card image cap" style="max-width: 100px;">
+                            <div class="card-body">
+                            <h5 class="card-title">Mueble 6</h5>
+                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta rerum suscipit cumque, alias expedita est iure quis architecto, deleniti</p>
+                            <input id="clave" name="clave" type="hidden" value="01">
+                            <a href="#" class="btn btn-outline-success">Añadir a carrito</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <footer id="main-footer" class="bg-dark text-white mt-5 p-5">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p class="lead text-center">
+                        Empresa dedicada a la comodidad de sus clientes &copy;
+                        <span>App Commerce</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
